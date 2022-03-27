@@ -1,11 +1,11 @@
 class IdeasController < ApplicationController
   def index
-    @category = inputs[:category]
-    if @category.nil?
-      @idea = Idea.all
-    else
-      @idea = Idea.find(@category)
-    end
+    # @category = inputs[:category]
+    # if @category.nil?
+    #   @idea = Idea.all
+    # else
+    #   @idea = Idea.find(@category)
+    # end
   end
 
   def new
