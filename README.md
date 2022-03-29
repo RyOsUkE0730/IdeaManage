@@ -11,7 +11,7 @@
 - category_id: bigint null: false (categoriesテーブルのFK)
 - body: text null: false アイデア本文
 - created_at: datetime
-- updated_at: datetime
+- updated_at: datetime<br>
 # API定義
 ## 1. アイデア登録API
 ### 仕様
